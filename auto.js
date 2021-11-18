@@ -1,0 +1,1 @@
+javascript:(function() {    var link = document.querySelector("link[rel*='icon']") || document.createElement('link');    link.type = 'image/x-icon';    link.rel = 'shortcut icon';    link.href = 'https://mathspathway.com/favicon-32x32.png';    document.title='Maths Pathway';   })();
